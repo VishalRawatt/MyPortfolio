@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="background: #000 ; color: #fff;">
+    <div class="header" id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="index.html" class="name">VISHAL<span class="surname">Rawat</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#header">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="textone">
+            <p>Mern Stack Developer</p>
+            <h1>Hii, I am <br><span>Vishal</span> Rawat.</h1>
+        </div>
+    </div>
+    <!------------about-------------------------------->
+    <div class="about" id="#about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/pictures/mypic3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>My Name is Vishal Rawat, born August 4th, 2002, aged 21, Sun Valley International School alumni.
+                        I'm a front-end developer with a strong design inclination. My coding voyage began
+                        early, mastering diverse languages and frameworks.<br>Currently pursuing B.Tech in AI and
+                        Machine
+                        Learning at ABES Engineering College, driven by insatiable curiosity and aspiration for tech
+                        advancement. Adept in HTML, CSS, JavaScript, specializing in crafting dynamic user interfaces
+                        using React JS, Next JS. Back-end proficiency in MongoDB, Node.js, Express.js for comprehensive
+                        full-stack grasp. Fluent in Figma, Webflow, I synthesize aesthetics and user-centricity.
+                        Proficient in C, Python decoding challenges innovatively. Interned at WorInWell, gaining
+                        real-world tech experience.<br>
+                        Hackathon participation showcases pressure resilience and team
+                        acumen. Eager to
+                        synergize technical acumen with AI, machine learning ardor for pioneering contributions. Let's
+                        connect for tech and innovation odyssey!</p>
+                    <div class="tabs">
+                        <p class="tab-link active" onclick="clicktab('Skills')">Skills</p>
+                        <p class="tab-link" onclick="clicktab('Experience')">Experience</p>
+                        <p class="tab-link" onclick="clicktab('Education')">Education</p>
+                    </div>
+                    <div class="tab-content active" id="Skills">
+                        <ul>
+                            <li><span>MERN Stack</span><br>Developing Websites for practice and competition</li>
+                            <li><span>Web Development</span><br>Developing Websites for personal and industrial use</li>
+                            <li><span>C and Python</span><br>To prepare for Hackathons</li>
+                            <li><span>UI/UX</span><br>Create sites with astonishing designs with Figma and WordPress
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>Front-end Development</span><br>2 month internship in WorInWell and 2-years
+                                experience.</li>
+                            <li><span>ReactJs</span><br>1 year experience of using ReactJs</li>
+                            <li><span>Hackathon</span><br>Participated in 4 till now</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>Matric(2018-2020)</span><br>Sun Valley International School</li>
+                            <li><span>Btech in CSE(AIML) (2021-current)</span><br>ABES Engineering College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services-------------------------------->
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="row">
+                <div class="col-md-4" id="service-list">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>For over 2 years, I've been passionately honing my web development craft, immersing myself in the
+                        world of HTML, CSS, and JavaScript. These dynamic languages have become my playground for
+                        creativity, allowing me to weave interactive and visually captivating digital experiences.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-4" id="service-list">
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>MERN stack Development</h2>
+                    <p>Equipped with expertise in ReactJS, I'm embarking on a journey with NodeJS, MongoDB, and
+                        ExpressJS. Over a year, I've crafted captivating React projects, and now I'm sculpting
+                        server-side magic
+                        with this power-packed stack.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-4" id="service-list">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h2>UI/UX Development</h2>
+                    <p>I've brought imagination to life through Figma and harnessed the potential of WordPress, crafting
+                        diverse web projects. With an intermediate mastery, I seamlessly weave captivating web pages,
+                        merging design finesse with functional brilliance.</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------portfolio-------------------------------->
+    <div class="portfolio" id="projects">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="worklist row">
+                <div class="work col-md-4">
+                    <img src="/pictures/photo1.jpg">
+                    <div class="layer">
+                        <h3>World News Website</h3>
+                        <p>Introducing our cutting-edge News App - your gateway to global updates! Stay in the know
+                            with the freshest headlines from around the world. Experience the power of staying informed,
+                            right at your fingertips!</p>
+                        <a href="https://worldnews-inky.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work col-md-4">
+                    <img src="/pictures/photo2.jpg">
+                    <div class="layer">
+                        <h3>Cure Cancer Website</h3>
+                        <p>Welcome to the Heartbeat Hope: Your Compassionate CureCancer Partner. Step into a world
+                            where every click brings us closer to a cancer-free tomorrow. Join hands with us in this
+                            journey of healing and hope.</p>
+                        <a href="https://curecancer.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work col-md-4">
+                    <img src="/pictures/photo3.jpg">
+                    <div class="layer">
+                        <h3>TextForm Website</h3>
+                        <p>"Unlock the Power of Words with Our Innovative Website! Explore a world where your text
+                            becomes a treasure trove of discoveries. Unleash the magic of finding hidden gems within
+                            your own words."</p>
+                        <a href="https://textform-sigma.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> vshalrawal@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9599060209</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/vishal-rawat-22b788225/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/VishalRawatt" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100022111158747" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email ID" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn2" onclick="submitcontact()">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var links = document.getElementsByClassName("tab-link");
+        var contents = document.getElementsByClassName("tab-content");
+
+        function clicktab(tabname) {
+            for (link of links) {
+                link.classList.remove("active");
+            }
+            for (content of contents) {
+                content.classList.remove("active");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active");
+        }
+        function submitcontact(){
+                alert("Message Sent Successfully")
+        }
+    </script>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyDILtAZsddKUBM8lYo4Qs7cnRWK8J4n8a3FqJAHxeoCKJb-Njfxdf6m8_oJ1kbXuNljA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
