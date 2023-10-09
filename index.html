@@ -163,18 +163,18 @@
                         <p>Welcome to the Heartbeat Hope: Your Compassionate CureCancer Partner. Step into a world
                             where every click brings us closer to a cancer-free tomorrow. Join hands with us in this
                             journey of healing and hope.</p>
-                        <a href="https://curecancer.netlify.app/" target="_blank"><i
+                        <a href="https://curecancer.vercel.app/" target="_blank"><i
                                 class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work col-md-4">
                     <img src="/pictures/photo3.jpg">
                     <div class="layer">
-                        <h3>TextForm Website</h3>
-                        <p>"Unlock the Power of Words with Our Innovative Website! Explore a world where your text
-                            becomes a treasure trove of discoveries. Unleash the magic of finding hidden gems within
-                            your own words."</p>
-                        <a href="https://textform-sigma.vercel.app/" target="_blank"><i
+                        <h3>BitgraD Website</h3>
+                        <p>Discover Curious Kids Corner: Where curiosity thrives! Join a secure online space for young
+                            minds to ask questions, share knowledge, and make friends. Explore diverse interests, play
+                            fun games, and embrace the power of curiosity. Unleash your inquisitive spirit today!</p>
+                        <a href="https://bitgrad.vercel.app/" target="_blank"><i
                                 class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="subtitle">Contact Me</h1>
-                    <p><i class="fa-regular fa-envelope"></i> vshalrawal@gmail.com</p>
+                    <p><i class="fa-regular fa-envelope"></i>vshalrawal@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i> +91 9599060209</p>
                     <div class="social-icon">
                         <a href="https://www.linkedin.com/in/vishal-rawat-22b788225/" target="_blank"><i
@@ -224,22 +224,27 @@
             event.currentTarget.classList.add("active");
             document.getElementById(tabname).classList.add("active");
         }
-        function submitcontact(){
-                alert("Message Sent Successfully")
+
+        function submitcontact() {
+            alert("Message Sent Successfully")
         }
     </script>
-      
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyDILtAZsddKUBM8lYo4Qs7cnRWK8J4n8a3FqJAHxeoCKJb-Njfxdf6m8_oJ1kbXuNljA/exec'
+
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbyDILtAZsddKUBM8lYo4Qs7cnRWK8J4n8a3FqJAHxeoCKJb-Njfxdf6m8_oJ1kbXuNljA/exec'
         const form = document.forms['submit-to-google-sheet']
-      
+
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
         })
-      </script>
+    </script>
 </body>
 
 </html>
